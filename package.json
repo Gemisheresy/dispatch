@@ -1,0 +1,23 @@
+{
+  "name": "dispatch",
+  "version": "1.0.0",
+  "description": "Making a node server to receive gps locations for dispatcher services",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dispatch",
+    "gps",
+    "node",
+    "express"
+  ],
+  "author": "gemis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "request": "^2.72.0",
+    "request-promise": "^3.0.0"
+  }
+}
